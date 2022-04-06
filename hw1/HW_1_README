@@ -1,0 +1,11 @@
+github link:https://github.com/Skippy0106/Robotics_2022
+
+操作流程：
+1.roscore
+2.roslaunch hw1 turtle_setting.launch
+3.rosrun hw1 hw1 
+
+說明：
+鍵盤W,s：控制x方向速度
+鍵盤a,d:控制z-axis 角速度
+鍵盤r：速度,角速度歸零

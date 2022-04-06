@@ -3,7 +3,7 @@
 
 # 110年度機器人學：多軸旋翼機
 ## HW3
-- 請實做 無人機 PD controller，誤差請使用 特定軸轉特定角 方式實做
+- 請實做 無人機 PD controller，誤差請使用 特定軸轉特定角 方式實做(讚讚)
 
 - 推導與環境問題筆記 https://hackmd.io/@NL7lSHMfR5W9am2Vnpxa5Q/By-Gh53Z5
 

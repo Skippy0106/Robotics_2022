@@ -20,9 +20,9 @@ T = 5
 Kp_z = 10
 
 # rotation
-Kp_yaw = -3
-Kp_roll = -5
-Kp_pitch = -5
+Kp_yaw = -30
+Kp_roll = -50
+Kp_pitch = -35
 
 # Derivative coefficients
 # translation

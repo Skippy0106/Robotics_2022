@@ -1,0 +1,8 @@
+github link:https://github.com/Skippy0106/Robotics_2022
+
+執行程序：
+python3 hw3.py
+
+程式說明：
+無人機升至定點後,pitch方向的error可能因為kp_pitch的補償過大而墜落
+嘗試調小gain後(-50->-35),即可穩定收斂.

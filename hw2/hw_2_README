@@ -1,0 +1,11 @@
+github link:https://github.com/Skippy0106/Robotics_2022
+
+操作流程：
+1.roscore
+2.roslaunch hw2 turtle.launch
+3.rosrun hw2 hw2 
+
+說明：
+輸入leader的goal points ex:(1,1)
+follower1,follower2會維持固定隊形跟隨
+
