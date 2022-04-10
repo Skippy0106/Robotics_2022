@@ -1,0 +1,9 @@
+github link:https://github.com/Skippy0106/Robotics_2022
+
+執行程序：
+Hw4_1.m
+HW4_2/main.m
+程式說明：
+第一題：讀取input與output資料,使用matlab regress,可得b表示兩個input分別的係數在,再做圖
+
+第二題：修改上課練習,只有使用IMU UPDATE計算AUV姿態的q
