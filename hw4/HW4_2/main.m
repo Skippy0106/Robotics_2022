@@ -25,7 +25,7 @@ linkaxes(axis, 'x');
 
 %% Process sensor data through Madgwic algorithm
 
-AHRS = MadgwickAHRS('SamplePeriod', 1/300, 'Beta', 0.033);
+AHRS = MadgwickAHRS('SamplePeriod', 1/10, 'Beta', 0.033);
 quaternion = zeros(length(time), 4);
 for t = 1:length(time)
     AHRS.UpdateIMU(Accelerometer(t,:));	% gyroscope units must be radians
@@ -51,6 +51,3 @@ ylabel('Angle (deg)');
 legend('\phi', '\theta', '\psi');
 hold off;
 
-figure('Name', 'AUV trajctory');
-hold on;
-plot3(q_plot(:,1),q_plot(:,2),q_plot(:,3));
